@@ -50,7 +50,7 @@ class LoginActivity : AppCompatActivity() {
 
     private fun performLogin(username: String, password: String) {
         // This is just a placeholder. You should implement actual login logic here.
-        if (username == "admin" && password == "1234") {
+        if (username == "Tani " && password == "1234") {
             Toast.makeText(this, "Login successful", Toast.LENGTH_SHORT).show()
             // Proceed to the DashboardActivity
             val intent = Intent(this, DashboardActivity::class.java)

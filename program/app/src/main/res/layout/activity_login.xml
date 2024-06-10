@@ -6,69 +6,51 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/design_default_color_primary_variant"
+    android:background="@color/white"
     tools:context=".LoginActivity">
 
-    <TextView
-        android:id="@+id/tvlogin"
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="195dp"
+        android:layout_height="246dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="400dp"
+        app:srcCompat="@drawable/login1" />
+
+    <EditText
+        android:id="@+id/eduser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LOGIN"
-        android:layout_marginTop="150dp"
-        android:layout_centerHorizontal="true"
-        android:textSize="28dp"
-        android:textStyle="bold"
-        android:textColorHint="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="340dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Username" />
 
     <EditText
-        android:id="@+id/etUsername"
-        android:layout_width="match_parent"
+        android:id="@+id/edpass"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tvlogin"
-        android:layout_margin="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="53dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:background="#38ffffff"
-        android:drawableStart="@drawable/baseline_person_24"
-        android:drawablePadding="20dp"
-        android:hint="Username"
-        android:padding="28dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white" />
-
-    <EditText
-        android:id="@+id/etPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/etUsername"
-        android:layout_margin="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="29dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:background="#38ffffff"
-        android:hint="Password"
-        android:textColorHint="@color/white"
-        android:padding="28dp"
-        android:drawableStart="@drawable/baseline_balcony_24"
-        android:drawablePadding="20dp"
-        android:textColor="@color/white"/>
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="288dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Password" />
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/etPassword"
-        android:layout_centerHorizontal="true"
-        android:backgroundTint="@color/cardview_dark_background"
-        android:text="LOGIN"
-        />
-
-
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="233dp"
+        android:text="Login" />
 </RelativeLayout>

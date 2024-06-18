@@ -87,6 +87,8 @@
             android:layout_height="80dp"
             android:layout_weight="1"
             android:text="Jenis Pupuk"
+            android:textAlignment="center"
+            android:textSize="18sp"
 
 
 

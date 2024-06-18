@@ -151,7 +151,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="Tentang Kami"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
     </LinearLayout>

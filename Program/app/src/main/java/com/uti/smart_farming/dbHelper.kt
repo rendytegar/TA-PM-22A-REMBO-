@@ -61,5 +61,7 @@ class dbHelper(private val context: Context) :
                 return username
         }
         fun deleteUser() {
+                val db = writableDatabase
+        }
 
         }

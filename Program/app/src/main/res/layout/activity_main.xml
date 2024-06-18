@@ -120,6 +120,7 @@ git<?xml version="1.0" encoding="utf-8"?>
                     android:layout_width="match_parent"
                     android:layout_height="115dp"
                     android:layout_margin="15dp"
+                    app:srcCompat="@drawable/recent" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"

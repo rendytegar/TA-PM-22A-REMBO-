@@ -96,7 +96,9 @@
 
     </LinearLayout>
 
-    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        >
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"

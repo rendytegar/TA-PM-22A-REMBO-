@@ -67,6 +67,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="@+id/btnLogin" >
+        app:layout_constraintEnd_toEndOf="@+id/btnLogin"
+        app:layout_constraintStart_toStartOf="@+id/btnLogin" >
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -49,7 +49,8 @@
         android:hint="Password"
         android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="@+id/Username"
-        app:layout_constraintStart_toStartOf="@+id/Username" />
+        app:layout_constraintStart_toStartOf="@+id/Username"
+        app:layout_constraintTop_toBottomOf="@+id/Username" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -135,7 +135,8 @@
         android:layout_width="330dp"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/btnLogin" >
 
     </LinearLayout>
 

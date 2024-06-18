@@ -162,6 +162,7 @@ git<?xml version="1.0" encoding="utf-8"?>
         android:text="Perkembangan Benih"
         android:textAlignment="center"
         android:textSize="18sp"
+        android:textStyle="bold"
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="250dp"

@@ -17,6 +17,7 @@ class dbHelper(private val context: Context) :
                 private const val COLUMN_USERNAME = "username"
                 private const val COLUMN_PASSWORD = "password"
         }
+
         override fun onCreate(db: SQLiteDatabase?) {
                 val createTableQuery = ("CREATE TABLE $TABLE_NAME (" +
                         "$COLUMN_ID INTEGER PRIMARY KEY AUTOINCREMENT, " +
@@ -24,11 +25,13 @@ class dbHelper(private val context: Context) :
                         "$COLUMN_PASSWORD TEXT)")
                 db?.execSQL(createTableQuery)
         }
+
         override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
                 val dropTableQuery = "DROP TABLE IF EXISTS $TABLE_NAME"
                 db?.execSQL(dropTableQuery)
                 onCreate(db)
         }
+
         fun insertUser(username: String, password: String): Long {
                 val values = ContentValues().apply {
                         put(COLUMN_USERNAME, username)
@@ -37,6 +40,7 @@ class dbHelper(private val context: Context) :
                 val db = writableDatabase
                 return db.insert(TABLE_NAME, null, values)
         }
+
         fun readUser(username: String, password: String): Boolean {
                 val db = readableDatabase
                 val selection = "$COLUMN_USERNAME = ? AND $COLUMN_PASSWORD = ?"
@@ -47,6 +51,7 @@ class dbHelper(private val context: Context) :
                 cursor.close()
                 return userExists
         }
+
         @SuppressLint("Range")
         fun getUsername(): String {
                 val db = readableDatabase
@@ -57,12 +62,13 @@ class dbHelper(private val context: Context) :
                 if (cursor != null && cursor.moveToFirst()) {
                         username = cursor.getString(cursor.getColumnIndex(COLUMN_USERNAME))
                 }
+
                 cursor.close()
                 return username
         }
+
         fun deleteUser() {
                 val db = writableDatabase
                 db.delete(TABLE_NAME, null, null)
         }
-
-        }
+}

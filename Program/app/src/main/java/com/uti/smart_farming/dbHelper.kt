@@ -57,5 +57,8 @@ class dbHelper(private val context: Context) :
                 if (cursor != null && cursor.moveToFirst()) {
                         username = cursor.getString(cursor.getColumnIndex(COLUMN_USERNAME))
                 }
+                cursor.close()
+                return username
+        }
 
         }

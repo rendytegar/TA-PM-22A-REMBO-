@@ -136,7 +136,7 @@ git<?xml version="1.0" encoding="utf-8"?>
     
     <androidx.cardview.widget.CardView
         android:id="@+id/cdPerkembangan"
-
+        android:layout_width="0dp"
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"

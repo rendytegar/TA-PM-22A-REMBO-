@@ -62,6 +62,7 @@ class dbHelper(private val context: Context) :
         }
         fun deleteUser() {
                 val db = writableDatabase
+                db.delete(TABLE_NAME, null, null)
         }
 
         }

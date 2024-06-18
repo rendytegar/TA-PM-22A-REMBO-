@@ -175,7 +175,9 @@
         android:layout_margin="10dp"
         android:gravity="center"
         android:text="Log Out"
-
-
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

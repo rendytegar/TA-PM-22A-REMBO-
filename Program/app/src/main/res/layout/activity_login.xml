@@ -35,7 +35,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Username"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

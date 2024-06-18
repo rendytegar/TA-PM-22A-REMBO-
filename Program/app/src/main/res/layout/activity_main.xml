@@ -156,14 +156,13 @@
             android:textStyle="bold" />
     </LinearLayout>
 
-
-
-
-
-
-
-
-
+    <LinearLayout
+        android:id="@+id/Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
 
 </LinearLayout>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

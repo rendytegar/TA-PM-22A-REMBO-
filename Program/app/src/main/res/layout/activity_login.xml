@@ -79,29 +79,7 @@
         tools:layout_editor_absoluteX="220dp"
         tools:layout_editor_absoluteY="126dp" />
 
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="296dp" />
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="173dp" />
-
-    <Button
-        android:id="@+id/button10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="364dp" />
 =======
         android:layout_marginTop="20dp"
         android:text="LOGIN"
@@ -161,16 +139,4 @@
 
     </LinearLayout>
 
->>>>>>> 2a824baba13fdad20bfdfe0f9ebcfce8fa62775a
-
-    <Button
-        android:id="@+id/button12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="71dp" />
-
-
-    >>>>>>> 93cf935e780c494c79c12fb5eb1a98182fd5a487
 </androidx.constraintlayout.widget.ConstraintLayout>

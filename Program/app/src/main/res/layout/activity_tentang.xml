@@ -28,6 +28,15 @@
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="18dp"
+        android:text="Selamat datang di Pertanian padi, solusi digital terdepan untuk petani padi
+         modern. Kami berkomitmen membantu Anda mengelola pertanian padi dengan efisien, mulai dari
+          pemilihan varietas padi, penggunaan obat-obatan pertanian, hingga pengelolaan pupuk optimal.
+           Kami menyediakan informasi lengkap tentang berbagai jenis padi unggulan, obat pertanian untuk
+           melindungi tanaman dari hama dan penyakit, serta jenis pupuk yang sesuai untuk berbagai tahap
+           pertumbuhan. Misi kami adalah mendukung petani padi meningkatkan produktivitas dan kualitas hasil
+           panen melalui teknologi dan informasi akurat. Terima kasih telah mempercayakan kebutuhan pertanian
+           Anda kepada kami. Bersama, kita dapat mencapai hasil yang lebih baik dan berkelanjutan. Selamat bercocok tanam!"
+
 
 
 

@@ -57,6 +57,14 @@
             android:textStyle="bold"
             android:textColor="@color/black"/>
     </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cdPupuk"
+            android:layout_width="0dp"
+            android:layout_height="190dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
 
 
 

@@ -130,6 +130,7 @@ git<?xml version="1.0" encoding="utf-8"?>
                         android:textAlignment="center"
                         android:textSize="18sp"
                         android:textStyle="bold"
+                        android:textColor="@color/black"
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"

@@ -7,9 +7,13 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 class tentangActivity : AppCompatActivity() {
 =======
 
+=======
+class tentangActivity : AppCompatActivity() {
+>>>>>>> 3a58b6685a416be24707a83b458b84f5bfaab4c1
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enablceEdgeToEdge()

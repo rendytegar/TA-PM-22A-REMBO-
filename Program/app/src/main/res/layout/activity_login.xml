@@ -118,7 +118,9 @@
         android:ems="10"
         android:hint="Username"
         android:layout_marginTop="50dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView" />
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/button11"
@@ -127,6 +129,14 @@
         android:text="Button"
         tools:layout_editor_absoluteX="152dp"
         tools:layout_editor_absoluteY="221dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="71dp" />
 
 
     >>>>>>> 93cf935e780c494c79c12fb5eb1a98182fd5a487

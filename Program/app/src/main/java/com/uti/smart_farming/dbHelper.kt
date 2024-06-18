@@ -44,5 +44,7 @@ class dbHelper(private val context: Context) :
 
                 val userExists = cursor.count > 0
                 cursor.close()
+                return userExists
+        }
 
         }

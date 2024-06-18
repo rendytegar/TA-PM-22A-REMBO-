@@ -129,6 +129,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/tentang"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
 
 
 

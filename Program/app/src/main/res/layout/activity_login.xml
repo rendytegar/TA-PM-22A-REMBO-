@@ -24,7 +24,8 @@
         android:layout_marginTop="20dp"
         android:text="LOGIN"
         android:textSize="25sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

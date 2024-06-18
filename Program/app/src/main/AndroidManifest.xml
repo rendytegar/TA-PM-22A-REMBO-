@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Smart_Farming"
         tools:targetApi="31">
         <activity
+            android:name=".WebViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".background"
             android:exported="false" />
         <activity

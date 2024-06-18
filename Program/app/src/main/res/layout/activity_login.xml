@@ -34,7 +34,8 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Username" />
+        android:hint="Username"
+        android:layout_marginTop="50dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

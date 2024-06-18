@@ -123,8 +123,8 @@ git<?xml version="1.0" encoding="utf-8"?>
                     app:srcCompat="@drawable/recent"/>
                     
                     <TextView
-                        android:layout_width=""
-                        android:layout_height=""
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"

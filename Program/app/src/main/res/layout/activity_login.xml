@@ -46,7 +46,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
-        android:hint="Password" />
+        android:hint="Password"
+        android:layout_marginTop="10dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

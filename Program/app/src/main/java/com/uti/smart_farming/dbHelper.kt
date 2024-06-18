@@ -60,5 +60,6 @@ class dbHelper(private val context: Context) :
                 cursor.close()
                 return username
         }
+        fun deleteUser() {
 
         }

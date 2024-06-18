@@ -141,6 +141,7 @@ git<?xml version="1.0" encoding="utf-8"?>
         android:layout_margin="20dp"
         android:layout_weight="1"
         app:cardBackgroundColor="#E1E3E5"
+        app:cardCornerRadius="20dp"
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="250dp"

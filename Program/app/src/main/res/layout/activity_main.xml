@@ -167,17 +167,9 @@
         android:background="@drawable/background"
         android:gravity="center"
         android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_margin="10dp"
-        android:gravity="center"
-        android:text="Log Out"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-</LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

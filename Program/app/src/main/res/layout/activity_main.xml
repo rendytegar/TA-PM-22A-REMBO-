@@ -147,6 +147,7 @@ git<?xml version="1.0" encoding="utf-8"?>
         android:layout_width="match_parent"
         android:layout_height="189dp"
         android:layout_weight="1"
+        android:orientation="vertical"
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="250dp"

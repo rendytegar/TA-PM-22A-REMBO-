@@ -34,8 +34,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="text"
-        android:text="Name" />
+        android:hint="Username" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

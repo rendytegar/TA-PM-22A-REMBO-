@@ -47,7 +47,8 @@
         android:ems="10"
         android:inputType="textPassword"
         android:hint="Password"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/Username" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

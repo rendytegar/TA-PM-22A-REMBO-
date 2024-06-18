@@ -101,6 +101,11 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="250dp"
+        app:cardBackgroundColor="@color/bg"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
 
 
@@ -120,5 +125,6 @@
 
 
 
-</LinearLayout>
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,7 +8,7 @@
     tools:context=".WebViewActivity">
     
     <WebView
-        android:layout_width=""
-        android:layout_height=""
+        android:id="@+id/webView"
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

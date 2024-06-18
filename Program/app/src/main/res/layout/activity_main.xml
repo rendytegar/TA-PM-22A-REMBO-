@@ -117,8 +117,8 @@ git<?xml version="1.0" encoding="utf-8"?>
                 android:orientation="vertical">
                 
                 <ImageView
-                    android:layout_width=""
-                    android:layout_height=""
+                    android:layout_width="match_parent"
+
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
